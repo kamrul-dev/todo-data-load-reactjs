@@ -1,10 +1,11 @@
 import React from 'react';
+import './Todo.css'
 
 const Todo = (props) => {
-    const { userId, title} = props.todo;
+    const { id, title} = props.todo;
     return (
-        <div>
-            <h3>userId: {userId}</h3>
+        <div className='todo'>
+            <h3>User: {id}</h3>
             <h4>Task: {title}</h4>
         </div>
     );

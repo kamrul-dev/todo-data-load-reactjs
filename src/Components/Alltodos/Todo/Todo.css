@@ -1,0 +1,7 @@
+.todo{
+    background-color: lightblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    display: grid;
+}
